@@ -1,0 +1,11 @@
+sseq	gg/smallseq.html#sseq	smallseq: sseq	
+newSSeq	gg/smallseq.html#newSSeq,Natural	smallseq: newSSeq[T](len: Natural = 0): sseq[T]	
+`@@`	gg/smallseq.html#@@,sinkarray[IDX,T]	smallseq: `@@`[IDX, T](a: sink array[IDX, T]): sseq[T]	
+`[]`	gg/smallseq.html#[],sseq[T],Natural	smallseq: `[]`[T](s: sseq[T]; i: Natural): T	
+`[]=`	gg/smallseq.html#[]=,sseq[T],Natural,T	smallseq: `[]=`[T](s: var sseq[T]; i: Natural; e: T)	
+len	gg/smallseq.html#len,sseq	smallseq: len(s: sseq): int	
+add	gg/smallseq.html#add,sseq[T],T	smallseq: add[T](s: var sseq[T]; e: T)	
+setLen	gg/smallseq.html#setLen,sseq,Natural	smallseq: setLen(s: sseq; len: Natural)	
+len=	gg/smallseq.html#len=,sseq,Natural	smallseq: len=(s: var sseq; len: Natural)	
+push	gg/smallseq.html#push,sseq[T],T	smallseq: push[T](s: var sseq[T]; e: T)	
+pop	gg/smallseq.html#pop,sseq[T]	smallseq: pop[T](s: var sseq[T]): T	

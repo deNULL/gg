@@ -1,0 +1,65 @@
+Grid2	gg/grid.html#Grid2	grid: Grid2	
+Grid3	gg/grid.html#Grid3	grid: Grid3	
+size	gg/grid.html#size,Grid[T,U,V]	grid: size[T, U, V](g: Grid[T, U, V]): U	
+width	gg/grid.html#width,Grid	grid: width(g: Grid): int	
+height	gg/grid.html#height,Grid	grid: height(g: Grid): int	
+depth	gg/grid.html#depth,Grid3	grid: depth(g: Grid3): int	
+bounds	gg/grid.html#bounds,Grid[T,U,V]	grid: bounds[T, U, V](g: Grid[T, U, V]): BBox[V]	
+fill	gg/grid.html#fill,Grid[T,U,V],T	grid: fill[T, U, V](g: var Grid[T, U, V]; value: T)	
+contains	gg/grid.html#contains,Grid2[T],Vec2i	grid: contains[T](g: Grid2[T]; idx: Vec2i): bool	
+`in`	gg/grid.html#in,Vec2i,Grid2[T]	grid: `in`[T](idx: Vec2i; g: Grid2[T]): bool	
+contains	gg/grid.html#contains,Grid3[T],Vec3i	grid: contains[T](g: Grid3[T]; idx: Vec3i): bool	
+contains	gg/grid.html#contains,Grid[T,U,V],V	grid: contains[T, U, V](g: Grid[T, U, V]; p: V): bool	
+`in`	gg/grid.html#in,V,Grid[T,U,V]	grid: `in`[T, U, V](p: V; g: Grid[T, U, V]): bool	
+initGrid2	gg/grid.html#initGrid2,Vec2i,BBox2f	grid: initGrid2[T](size: Vec2i; bounds: BBox2f): Grid2[T]	
+initGrid2	gg/grid.html#initGrid2,Vec2i,fnum	grid: initGrid2[T](size: Vec2i; cell: fnum = 1.0): Grid2[T]	
+initGrid2	gg/grid.html#initGrid2,int,int,fnum	grid: initGrid2[T](width, height: int; cell: fnum = 1.0): Grid2[T]	
+initGrid2	gg/grid.html#initGrid2,Vec2f,fnum	grid: initGrid2[T](size: Vec2f; cell: fnum = 1.0): Grid2[T]	
+initGrid2	gg/grid.html#initGrid2,fnum,fnum,fnum	grid: initGrid2[T](width, height: fnum; cell: fnum = 1.0): Grid2[T]	
+initGrid2	gg/grid.html#initGrid2,BBox2f,fnum	grid: initGrid2[T](bounds: BBox2f; cell: fnum = 1.0): Grid2[T]	
+initGrid3	gg/grid.html#initGrid3,Vec3i,BBox3f	grid: initGrid3[T](size: Vec3i; bounds: BBox3f): Grid3[T]	
+initGrid3	gg/grid.html#initGrid3,Vec3i,fnum	grid: initGrid3[T](size: Vec3i; cell: fnum = 1.0): Grid3[T]	
+initGrid3	gg/grid.html#initGrid3,int,int,int,fnum	grid: initGrid3[T](width, height, depth: int; cell: fnum = 1.0): Grid3[T]	
+initGrid3	gg/grid.html#initGrid3,Vec3f,fnum	grid: initGrid3[T](size: Vec3f; cell: fnum = 1.0): Grid3[T]	
+initGrid3	gg/grid.html#initGrid3,fnum,fnum,fnum,fnum	grid: initGrid3[T](width, height, depth: fnum; cell: fnum = 1.0): Grid3[T]	
+initGrid3	gg/grid.html#initGrid3,BBox3f,fnum	grid: initGrid3[T](bounds: BBox3f; cell: fnum = 1.0): Grid3[T]	
+cellOf	gg/grid.html#cellOf,Grid2[T],Vec2f	grid: cellOf[T](g: Grid2[T]; p: Vec2f): Vec2i	
+cellOf	gg/grid.html#cellOf,Grid3[T],Vec3f	grid: cellOf[T](g: Grid3[T]; p: Vec3f): Vec3i	
+cell	gg/grid.html#cell,Grid2[T],Vec2i	grid: cell[T](g: Grid2[T]; idx: Vec2i): BBox2f	
+`[]`	gg/grid.html#[],Grid2[T],Vec2i	grid: `[]`[T](g: Grid2[T]; idx: Vec2i): T	
+`[]`	gg/grid.html#[],Grid2[T],int,int	grid: `[]`[T](g: Grid2[T]; i, j: int): T	
+`[]`	gg/grid.html#[],Grid2[T],Vec2f	grid: `[]`[T](g: Grid2[T]; p: Vec2f): T	
+`[]`	gg/grid.html#[],Grid2[T],fnum,fnum	grid: `[]`[T](g: Grid2[T]; x, y: fnum): T	
+`[]=`	gg/grid.html#[]=,Grid2[T],Vec2i,T	grid: `[]=`[T](g: var Grid2[T]; idx: Vec2i; value: T)	
+`[]=`	gg/grid.html#[]=,Grid2[T],int,int,T	grid: `[]=`[T](g: var Grid2[T]; i, j: int; value: T)	
+`[]=`	gg/grid.html#[]=,Grid2[T],Vec2f,T	grid: `[]=`[T](g: var Grid2[T]; p: Vec2f; value: T)	
+`[]=`	gg/grid.html#[]=,Grid2[T],fnum,fnum,T	grid: `[]=`[T](g: var Grid2[T]; x, y: fnum; value: T)	
+`[]`	gg/grid.html#[],Grid3[T],Vec3i	grid: `[]`[T](g: Grid3[T]; idx: Vec3i): T	
+`[]`	gg/grid.html#[],Grid3[T],int,int,int	grid: `[]`[T](g: Grid3[T]; i, j, k: int): T	
+`[]`	gg/grid.html#[],Grid3[T],Vec3f	grid: `[]`[T](g: Grid3[T]; p: Vec3f): T	
+`[]`	gg/grid.html#[],Grid3[T],fnum,fnum,fnum	grid: `[]`[T](g: Grid3[T]; x, y, z: fnum): T	
+`[]=`	gg/grid.html#[]=,Grid3[T],Vec3i,T	grid: `[]=`[T](g: var Grid3[T]; idx: Vec3i; value: T)	
+`[]=`	gg/grid.html#[]=,Grid3[T],int,int,int,T	grid: `[]=`[T](g: var Grid3[T]; i, j, k: int; value: T)	
+`[]=`	gg/grid.html#[]=,Grid3[T],Vec3f,T	grid: `[]=`[T](g: var Grid3[T]; p: Vec3f; value: T)	
+`[]=`	gg/grid.html#[]=,Grid3[T],fnum,fnum,fnum,T	grid: `[]=`[T](g: var Grid3[T]; x, y, z: fnum; value: T)	
+pairs	gg/grid.html#pairs.i,Grid2[T]	grid: pairs[T](g: Grid2[T]): (Vec2i, T)	
+pairs	gg/grid.html#pairs.i,Grid3[T]	grid: pairs[T](g: Grid3[T]): (Vec3i, T)	
+items	gg/grid.html#items.i,Grid[T,U,V]	grid: items[T, U, V](g: Grid[T, U, V]): T	
+row	gg/grid.html#row.i,Grid2[T],int	grid: row[T](g: Grid2[T]; row: int): (int, T)	
+col	gg/grid.html#col.i,Grid2[T],int	grid: col[T](g: Grid2[T]; col: int): (int, T)	
+neighbors9	gg/grid.html#neighbors9.i,Grid2[T],Vec2i	grid: neighbors9[T](g: Grid2[T]; idx: Vec2i): (Vec2i, T)	
+neighbors8	gg/grid.html#neighbors8.i,Grid2[T],Vec2i	grid: neighbors8[T](g: Grid2[T]; idx: Vec2i): (Vec2i, T)	
+neighbors5	gg/grid.html#neighbors5.i,Grid2[T],Vec2i	grid: neighbors5[T](g: Grid2[T]; idx: Vec2i): (Vec2i, T)	
+neighbors4	gg/grid.html#neighbors4.i,Grid2[T],Vec2i	grid: neighbors4[T](g: Grid2[T]; idx: Vec2i): (Vec2i, T)	
+neighbors9	gg/grid.html#neighbors9.i,Grid2[T],Vec2f	grid: neighbors9[T](g: Grid2[T]; p: Vec2f): (Vec2i, T)	
+neighbors8	gg/grid.html#neighbors8.i,Grid2[T],Vec2f	grid: neighbors8[T](g: Grid2[T]; p: Vec2f): (Vec2i, T)	
+neighbors5	gg/grid.html#neighbors5.i,Grid2[T],Vec2f	grid: neighbors5[T](g: Grid2[T]; p: Vec2f): (Vec2i, T)	
+neighbors4	gg/grid.html#neighbors4.i,Grid2[T],Vec2f	grid: neighbors4[T](g: Grid2[T]; p: Vec2f): (Vec2i, T)	
+neighbors27	gg/grid.html#neighbors27.i,Grid3[T],Vec3i	grid: neighbors27[T](g: Grid3[T]; idx: Vec3i): (Vec3i, T)	
+neighbors26	gg/grid.html#neighbors26.i,Grid3[T],Vec3i	grid: neighbors26[T](g: Grid3[T]; idx: Vec3i): (Vec3i, T)	
+neighbors19	gg/grid.html#neighbors19.i,Grid3[T],Vec3i	grid: neighbors19[T](g: Grid3[T]; idx: Vec3i): (Vec3i, T)	
+neighbors18	gg/grid.html#neighbors18.i,Grid3[T],Vec3i	grid: neighbors18[T](g: Grid3[T]; idx: Vec3i): (Vec3i, T)	
+neighbors7	gg/grid.html#neighbors7.i,Grid3[T],Vec3i	grid: neighbors7[T](g: Grid3[T]; idx: Vec3i): (Vec3i, T)	
+neighbors6	gg/grid.html#neighbors6.i,Grid3[T],Vec3i	grid: neighbors6[T](g: Grid3[T]; idx: Vec3i): (Vec3i, T)	
+`$`	gg/grid.html#$,Grid2[T]	grid: `$`[T](g: Grid2[T]): string	
+`$`	gg/grid.html#$,Grid3[T]	grid: `$`[T](g: Grid3[T]): string	

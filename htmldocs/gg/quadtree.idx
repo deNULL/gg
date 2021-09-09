@@ -1,0 +1,20 @@
+Vec2Provider	gg/quadtree.html#Vec2Provider	quadtree: Vec2Provider	
+BBoxProvider	gg/quadtree.html#BBoxProvider	quadtree: BBoxProvider	
+Quadable	gg/quadtree.html#Quadable	quadtree: Quadable	
+Index	gg/quadtree.html#Index	quadtree: Index	
+Quadtree	gg/quadtree.html#Quadtree	quadtree: Quadtree	
+initQuadtree	gg/quadtree.html#initQuadtree,BBox2f,int,float	quadtree: initQuadtree[E: Quadable](bounds: BBox2f = bbox((-100.0, -100.0),\n    (100.0, 100.0)); maxChildren = 10; maxDepth = int.high; minDist = 1e-008): Quadtree[\n    E]	
+find	gg/quadtree.html#find.i,Quadtree[E],BBox2	quadtree: find[E](tree: Quadtree[E]; bbox: BBox2): (Index, E)	
+find	gg/quadtree.html#find.i,Quadtree[E],Vec2,float	quadtree: find[E](tree: Quadtree[E]; p: Vec2; r: float = 0.0): (Index, E)	
+findApprox	gg/quadtree.html#findApprox.i,Quadtree[E],Vec2,float	quadtree: findApprox[E](tree: Quadtree[E]; p: Vec2; r: float = 0.0): (Index, E)	
+find	gg/quadtree.html#find,Quadtree[E],E	quadtree: find[E](tree: Quadtree[E]; elem: E): Index	
+cover	gg/quadtree.html#cover,Quadtree,BBox2	quadtree: cover(tree: var Quadtree; bounds: BBox2)	
+cover	gg/quadtree.html#cover,Quadtree,Vec2	quadtree: cover(tree: var Quadtree; p: Vec2)	
+add	gg/quadtree.html#add,Quadtree[E: Quadable],E	quadtree: add[E: Quadable](tree: var Quadtree[E]; elem: E): Index	
+add	gg/quadtree.html#add,Quadtree[E: Quadable],varargs[E]	quadtree: add[E: Quadable](tree: var Quadtree[E]; els: varargs[E])	
+del	gg/quadtree.html#del,Quadtree[E],Index	quadtree: del[E](tree: var Quadtree[E]; i: Index)	
+cleanup	gg/quadtree.html#cleanup,Quadtree	quadtree: cleanup(tree: var Quadtree)	
+items	gg/quadtree.html#items.i,Quadtree[E]	quadtree: items[E](tree: Quadtree[E]): E	
+items	gg/quadtree.html#items,Quadtree[E]	quadtree: items[E](tree: Quadtree[E]): seq[E]	
+len	gg/quadtree.html#len,Quadtree	quadtree: len(tree: Quadtree): int	
+`$`	gg/quadtree.html#$,Quadtree[E: Quadable]	quadtree: `$`[E: Quadable](tree: Quadtree[E]): string	

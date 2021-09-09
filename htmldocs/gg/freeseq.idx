@@ -1,0 +1,13 @@
+fseq	gg/freeseq.html#fseq	freeseq: fseq	
+`$`	gg/freeseq.html#$,fseq[T]	freeseq: `$`[T](s: fseq[T]): string	
+newFSeq	gg/freeseq.html#newFSeq,Natural	freeseq: newFSeq[T](len: Natural = 0): fseq[T]	
+isFree	gg/freeseq.html#isFree,fseq,Natural	freeseq: isFree(s: fseq; i: Natural): bool	
+`[]`	gg/freeseq.html#[],fseq[T],Natural	freeseq: `[]`[T](s: fseq[T]; i: Natural): T	
+`[]=`	gg/freeseq.html#[]=,fseq[T],Natural,T	freeseq: `[]=`[T](s: var fseq[T]; i: Natural; e: T)	
+len	gg/freeseq.html#len,fseq	freeseq: len(s: fseq): int	
+add	gg/freeseq.html#add,fseq[T],T	freeseq: add[T](s: var fseq[T]; e: T): int	
+del	gg/freeseq.html#del,fseq[T],int	freeseq: del[T](s: var fseq[T]; i: int): T	
+push	gg/freeseq.html#push,fseq[T],T	freeseq: push[T](s: var fseq[T]; e: T)	
+pop	gg/freeseq.html#pop,fseq[T]	freeseq: pop[T](s: var fseq[T]): T	
+items	gg/freeseq.html#items,fseq[T]	freeseq: items[T](s: fseq[T]): seq[T]	
+items	gg/freeseq.html#items.i,fseq[T]	freeseq: items[T](s: fseq[T]): T	

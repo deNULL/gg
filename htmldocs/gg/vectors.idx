@@ -1,0 +1,279 @@
+fnum	gg/vectors.html#fnum	vectors: fnum	
+inum	gg/vectors.html#inum	vectors: inum	
+eps	gg/vectors.html#eps	vectors: eps	
+Region2f	gg/vectors.html#Region2f	vectors: Region2f	
+Vec2	gg/vectors.html#Vec2	vectors: Vec2	
+Vec2f	gg/vectors.html#Vec2f	vectors: Vec2f	
+Vec2i	gg/vectors.html#Vec2i	vectors: Vec2i	
+Vec3	gg/vectors.html#Vec3	vectors: Vec3	
+Vec3f	gg/vectors.html#Vec3f	vectors: Vec3f	
+Vec3i	gg/vectors.html#Vec3i	vectors: Vec3i	
+Vec4	gg/vectors.html#Vec4	vectors: Vec4	
+Vec4f	gg/vectors.html#Vec4f	vectors: Vec4f	
+Vec4i	gg/vectors.html#Vec4i	vectors: Vec4i	
+Polar	gg/vectors.html#Polar	vectors: Polar	
+Segment	gg/vectors.html#Segment	vectors: Segment	
+Segment2f	gg/vectors.html#Segment2f	vectors: Segment2f	
+Segment2i	gg/vectors.html#Segment2i	vectors: Segment2i	
+Triangle	gg/vectors.html#Triangle	vectors: Triangle	
+Triangle2f	gg/vectors.html#Triangle2f	vectors: Triangle2f	
+Triangle3f	gg/vectors.html#Triangle3f	vectors: Triangle3f	
+Rect2f	gg/vectors.html#Rect2f	vectors: Rect2f	
+Path2f	gg/vectors.html#Path2f	vectors: Path2f	
+Polygon2f	gg/vectors.html#Polygon2f	vectors: Polygon2f	
+Circle2f	gg/vectors.html#Circle2f	vectors: Circle2f	
+BBox	gg/vectors.html#BBox	vectors: BBox	
+BBox2	gg/vectors.html#BBox2	vectors: BBox2	
+BBox2f	gg/vectors.html#BBox2f	vectors: BBox2f	
+BBox2i	gg/vectors.html#BBox2i	vectors: BBox2i	
+BBox3	gg/vectors.html#BBox3	vectors: BBox3	
+BBox3f	gg/vectors.html#BBox3f	vectors: BBox3f	
+BBox3i	gg/vectors.html#BBox3i	vectors: BBox3i	
+Mat3x3	gg/vectors.html#Mat3x3	vectors: Mat3x3	
+Mat3x3f	gg/vectors.html#Mat3x3f	vectors: Mat3x3f	
+orCCW	gg/vectors.html#orCCW	Orient.orCCW	
+orCollinear	gg/vectors.html#orCollinear	Orient.orCollinear	
+orCW	gg/vectors.html#orCW	Orient.orCW	
+Orient	gg/vectors.html#Orient	vectors: Orient	
+rect	gg/vectors.html#rect,Vec2f,Vec2f	vectors: rect(origin, size: Vec2f): Rect2f	
+bbox	gg/vectors.html#bbox,T,T	vectors: bbox[T](min, max: T): BBox[T]	
+`..`	gg/vectors.html#..,Vec2[T],Vec2[T]	vectors: `..`[T](min, max: Vec2[T]): BBox2[T]	
+`..`	gg/vectors.html#..,Vec3[T],Vec3[T]	vectors: `..`[T](min, max: Vec3[T]): BBox3[T]	
+segment	gg/vectors.html#segment,T,T	vectors: segment[T](st, en: T): Segment[T]	
+`-&gt;`	gg/vectors.html#->,T,T	vectors: `-&gt;`[T](st, en: T): Segment[T]	
+`$`	gg/vectors.html#$,Vec2	vectors: `$`(p: Vec2): string	
+`$`	gg/vectors.html#$,Vec3	vectors: `$`(p: Vec3): string	
+`$`	gg/vectors.html#$,BBox	vectors: `$`(bbox: BBox): string	
+`$`	gg/vectors.html#$,Segment	vectors: `$`(segm: Segment): string	
+mix	gg/vectors.html#mix,fnum,fnum,fnum	vectors: mix(p1: fnum; p2: fnum; t: fnum): fnum	
+`~=`	gg/vectors.html#~=,fnum,fnum	vectors: `~=`(a, b: fnum): bool	
+`!~=`	gg/vectors.html#!~=.t,typed,typed	vectors: `!~=`(a, b: typed): bool	
+zero	gg/vectors.html#zero.t,typedesc[Vec2f]	vectors: zero(T: typedesc[Vec2f]): Vec2f	
+one	gg/vectors.html#one.t,typedesc[Vec2f]	vectors: one(T: typedesc[Vec2f]): Vec2f	
+down	gg/vectors.html#down.t,typedesc[Vec2f]	vectors: down(T: typedesc[Vec2f]): Vec2f	
+up	gg/vectors.html#up.t,typedesc[Vec2f]	vectors: up(T: typedesc[Vec2f]): Vec2f	
+left	gg/vectors.html#left.t,typedesc[Vec2f]	vectors: left(T: typedesc[Vec2f]): Vec2f	
+right	gg/vectors.html#right.t,typedesc[Vec2f]	vectors: right(T: typedesc[Vec2f]): Vec2f	
+inf	gg/vectors.html#inf.t,typedesc[Vec2f]	vectors: inf(T: typedesc[Vec2f]): Vec2f	
+lenSq	gg/vectors.html#lenSq,Vec2[T]	vectors: lenSq[T](p: Vec2[T]): T	
+lenManh	gg/vectors.html#lenManh,Vec2[T]	vectors: lenManh[T](p: Vec2[T]): T	
+length	gg/vectors.html#length,Vec2f	vectors: length(p: Vec2f): fnum	
+`^`	gg/vectors.html#^,Vec2[T],Vec2[T]	vectors: `^`[T](p1: Vec2[T]; p2: Vec2[T]): T	
+`*`	gg/vectors.html#*,Vec2[T],Vec2[T]	vectors: `*`[T](p1: Vec2[T]; p2: Vec2[T]): T	
+`-`	gg/vectors.html#-,Vec2,Vec2	vectors: `-`(p1: Vec2; p2: Vec2): Vec2	
+`-`	gg/vectors.html#-,Vec2	vectors: `-`(p: Vec2): Vec2	
+`-=`	gg/vectors.html#-=,Vec2,Vec2	vectors: `-=`[T](p1: var Vec2; p2: Vec2)	
+`+`	gg/vectors.html#+,Vec2[T],Vec2[T]	vectors: `+`[T](p1: Vec2[T]; p2: Vec2[T]): Vec2[T]	
+`+=`	gg/vectors.html#+=,Vec2[T],Vec2[T]	vectors: `+=`[T](p1: var Vec2[T]; p2: Vec2[T])	
+`*`	gg/vectors.html#*,Vec2[T],T	vectors: `*`[T](p: Vec2[T]; s: T): Vec2[T]	
+`*`	gg/vectors.html#*,T,Vec2[T]	vectors: `*`[T](s: T; p: Vec2[T]): Vec2[T]	
+`*=`	gg/vectors.html#*=,Vec2[T],T	vectors: `*=`[T](p: var Vec2[T]; s: T)	
+`/`	gg/vectors.html#/,Vec2[T],T	vectors: `/`[T](p: Vec2[T]; s: T): Vec2[T]	
+`/=`	gg/vectors.html#/=,Vec2[T],T	vectors: `/=`[T](p: var Vec2[T]; s: T)	
+norm	gg/vectors.html#norm,Vec2f	vectors: norm(p: Vec2f): Vec2f	
+perp	gg/vectors.html#perp,Vec2[T]	vectors: perp[T](p: Vec2[T]): Vec2[T]	
+min	gg/vectors.html#min,Vec2[T],Vec2[T]	vectors: min[T](p1: Vec2[T]; p2: Vec2[T]): Vec2[T]	
+min	gg/vectors.html#min,varargs[T]	vectors: min[T: Vec2](ps: varargs[T]): T	
+max	gg/vectors.html#max,Vec2[T],Vec2[T]	vectors: max[T](p1: Vec2[T]; p2: Vec2[T]): Vec2[T]	
+max	gg/vectors.html#max,varargs[T]	vectors: max[T: Vec2](ps: varargs[T]): T	
+avg	gg/vectors.html#avg,Vec2f,Vec2f	vectors: avg(p1: Vec2f; p2: Vec2f): Vec2f	
+avg	gg/vectors.html#avg,Vec2i,Vec2i	vectors: avg(p1: Vec2i; p2: Vec2i): Vec2i	
+avg	gg/vectors.html#avg,varargs[Vec2f]	vectors: avg(ps: varargs[Vec2f]): Vec2f	
+round	gg/vectors.html#round,Vec2f	vectors: round(p: Vec2f): Vec2f	
+floor	gg/vectors.html#floor,Vec2f	vectors: floor(p: Vec2f): Vec2f	
+ceil	gg/vectors.html#ceil,Vec2f	vectors: ceil(p: Vec2f): Vec2f	
+ivec	gg/vectors.html#ivec,Vec2f	vectors: ivec(p: Vec2f): Vec2i	
+fvec	gg/vectors.html#fvec,Vec2i	vectors: fvec(p: Vec2i): Vec2f	
+aspect	gg/vectors.html#aspect,Vec2f	vectors: aspect(p: Vec2f): fnum	
+distSq	gg/vectors.html#distSq,Vec2[T],Vec2[T]	vectors: distSq[T](p1: Vec2[T]; p2: Vec2[T]): T	
+dist	gg/vectors.html#dist,Vec2f,Vec2f	vectors: dist(p1: Vec2f; p2: Vec2f): fnum	
+distManh	gg/vectors.html#distManh,Vec2[T],Vec2[T]	vectors: distManh[T](p1: Vec2[T]; p2: Vec2[T]): T	
+angle	gg/vectors.html#angle,Vec2f	vectors: angle(p: Vec2f): fnum	
+angle	gg/vectors.html#angle,Vec2f,Vec2f	vectors: angle(p1: Vec2f; p2: Vec2f): fnum	
+pseudoAngle	gg/vectors.html#pseudoAngle,Vec2f	vectors: pseudoAngle(p: Vec2f): fnum	
+`~=`	gg/vectors.html#~=,Vec2f,Vec2f	vectors: `~=`(p1: Vec2f; p2: Vec2f): bool	
+angleBetween	gg/vectors.html#angleBetween,Vec2f,Vec2f	vectors: angleBetween(p1: Vec2f; p2: Vec2f): fnum	
+angleTo	gg/vectors.html#angleTo,Vec2f,Vec2f	vectors: angleTo(p1: Vec2f; p2: Vec2f): fnum	
+angleTo2	gg/vectors.html#angleTo2,Vec2f,Vec2f	vectors: angleTo2(p1: Vec2f; p2: Vec2f): fnum	
+rot	gg/vectors.html#rot,Vec2f,fnum	vectors: rot(p: Vec2f; angle: fnum): Vec2f	
+rot	gg/vectors.html#rot,Vec2f,Vec2f,fnum	vectors: rot(p1: Vec2f; p2: Vec2f; angle: fnum): Vec2f	
+bisect	gg/vectors.html#bisect,Vec2f,Vec2f	vectors: bisect(p1: Vec2f; p2: Vec2f): Vec2f	
+polar	gg/vectors.html#polar,Vec2f	vectors: polar(p: Vec2f): Polar	
+cartesian	gg/vectors.html#cartesian,Polar	vectors: cartesian(p: Polar): Vec2f	
+cartesian	gg/vectors.html#cartesian,fnum,fnum	vectors: cartesian(r, theta: fnum): Vec2f	
+xz	gg/vectors.html#xz,Vec2f,fnum	vectors: xz(p: Vec2f; y: fnum): Vec3	
+xy	gg/vectors.html#xy,Vec2f,fnum	vectors: xy(p: Vec2f; z: fnum): Vec3	
+mix	gg/vectors.html#mix,Vec2f,Vec2f,fnum	vectors: mix(p1: Vec2f; p2: Vec2f; t: fnum): Vec2f	
+area	gg/vectors.html#area,Vec2f,Vec2f,Vec2f	vectors: area(a, b, c: Vec2f): fnum	
+orient2d	gg/vectors.html#orient2d,Vec2f,Vec2f,Vec2f	vectors: orient2d(pa, pb, pc: Vec2f): Orient	
+`/`	gg/vectors.html#/,Segment[T],fnum	vectors: `/`[T](segm: Segment[T]; s: fnum): Segment[T]	
+vec	gg/vectors.html#vec,Segment[T]	vectors: vec[T](s: Segment[T]): T	
+dir	gg/vectors.html#dir,Segment[T]	vectors: dir[T](s: Segment[T]): T	
+len	gg/vectors.html#len,Segment[T]	vectors: len[T](s: Segment[T]): fnum	
+lenSq	gg/vectors.html#lenSq,Segment[T]	vectors: lenSq[T](s: Segment[T]): fnum	
+lenManh	gg/vectors.html#lenManh,Segment[T]	vectors: lenManh[T](s: Segment[T]): fnum	
+center	gg/vectors.html#center,Segment[T]	vectors: center[T](s: Segment[T]): T	
+proj	gg/vectors.html#proj,Vec2f,Vec2f,Vec2f	vectors: proj(p: Vec2f; s, d: Vec2f): fnum	
+proj	gg/vectors.html#proj,Vec2f,Segment2f,bool	vectors: proj(p: Vec2f; s: Segment2f; bound: bool = true): Vec2f	
+distSq	gg/vectors.html#distSq,Vec2f,Segment2f	vectors: distSq(p: Vec2f; s: Segment2f): fnum	
+dist	gg/vectors.html#dist,Vec2f,Segment2f	vectors: dist(p: Vec2f; s: Segment2f): fnum	
+intersects	gg/vectors.html#intersects,Vec2f,Vec2f,Vec2f,Vec2f	vectors: intersects(a, b, c, d: Vec2f): bool	
+bbox	gg/vectors.html#bbox,Segment2f	vectors: bbox(segm: Segment2f): BBox2f	
+intersects	gg/vectors.html#intersects,Segment2f,Segment2f	vectors: intersects(a, b: Segment2f): bool	
+intersects	gg/vectors.html#intersects,Segment2f,Segment2f,Vec2f	vectors: intersects(a, b: Segment2f; p: var Vec2f): bool	
+segments	gg/vectors.html#segments,Vec2f,Vec2f,Vec2f	vectors: segments(a, b, c: Vec2f): seq[Segment2f]	
+segments	gg/vectors.html#segments.i,Vec2f,Vec2f,Vec2f	vectors: segments(a, b, c: Vec2f): Segment2f	
+perimeter	gg/vectors.html#perimeter,Vec2f,Vec2f,Vec2f	vectors: perimeter(a, b, c: Vec2f): fnum	
+normal	gg/vectors.html#normal,Vec2f,Vec2f,Vec2f	vectors: normal(a, b, c: Vec2f): fnum	
+inside	gg/vectors.html#inside,Vec2f,Vec2f,Vec2f,Vec2f	vectors: inside(p: Vec2f; a, b, c: Vec2f): bool	
+circumcenter	gg/vectors.html#circumcenter,Vec2f,Vec2f,Vec2f	vectors: circumcenter(p1, p2, p3: Vec2f): Vec2f	
+circumradius	gg/vectors.html#circumradius,Vec2f,Vec2f,Vec2f	vectors: circumradius(p1, p2, p3: Vec2f): fnum	
+centroid	gg/vectors.html#centroid,Vec2f,Vec2f,Vec2f	vectors: centroid(p1, p2, p3: Vec2f): Vec2f	
+incenter	gg/vectors.html#incenter,Vec2f,Vec2f,Vec2f	vectors: incenter(p1, p2, p3: Vec2f): Vec2f	
+incircle	gg/vectors.html#incircle,Vec2f,Vec2f,Vec2f,Vec2f	vectors: incircle(pa, pb, pc, pd: Vec2f): bool	
+distSq	gg/vectors.html#distSq,Vec2f,Vec2f,Vec2f,Vec2f	vectors: distSq(p, a, b, c: Vec2f): fnum	
+dist	gg/vectors.html#dist,Vec2f,Vec2f,Vec2f,Vec2f	vectors: dist(p, a, b, c: Vec2f): fnum	
+segments	gg/vectors.html#segments.t,Triangle2f	vectors: segments(t: Triangle2f): seq[Segment2f]	
+segments	gg/vectors.html#segments.i,Triangle2f	vectors: segments(t: Triangle2f): Segment2f	
+orient2d	gg/vectors.html#orient2d.t,Triangle2f	vectors: orient2d(t: Triangle2f): fnum	
+perimeter	gg/vectors.html#perimeter.t,Triangle2f	vectors: perimeter(t: Triangle2f): fnum	
+normal	gg/vectors.html#normal.t,Triangle2f	vectors: normal(t: Triangle2f): fnum	
+circumcenter	gg/vectors.html#circumcenter.t,Triangle2f	vectors: circumcenter(t: Triangle2f): fnum	
+centroid	gg/vectors.html#centroid.t,Triangle2f	vectors: centroid(t: Triangle2f): fnum	
+incenter	gg/vectors.html#incenter.t,Triangle2f	vectors: incenter(t: Triangle2f): fnum	
+inside	gg/vectors.html#inside.t,Vec2f,Triangle2f	vectors: inside(p: Vec2f; t: Triangle2f): fnum	
+incircle	gg/vectors.html#incircle.t,Triangle2f,Vec2f	vectors: incircle(t: Triangle2f; p: Vec2f): bool	
+distSq	gg/vectors.html#distSq.t,Vec2f,Triangle2f	vectors: distSq(p: Vec2f; t: Triangle2f): fnum	
+dist	gg/vectors.html#dist.t,Vec2f,Triangle2f	vectors: dist(p: Vec2f; t: Triangle2f): fnum	
+bbox	gg/vectors.html#bbox,Triangle[T]	vectors: bbox[T](t: Triangle[T]): BBox[T]	
+bbox	gg/vectors.html#bbox,Vec2f	vectors: bbox(p: Vec2f): BBox2f	
+bbox	gg/vectors.html#bbox,Vec2f,fnum	vectors: bbox(p: Vec2f; r: fnum): BBox2f	
+bbox	gg/vectors.html#bbox,varargs[Vec2f]	vectors: bbox(ps: varargs[Vec2f]): BBox2f	
+ibox	gg/vectors.html#ibox,Vec2f	vectors: ibox(p: Vec2f): BBox2i	
+bboxAt	gg/vectors.html#bboxAt,Vec2f,Vec2f	vectors: bboxAt(p: Vec2f; size: Vec2f): BBox2f	
+segments	gg/vectors.html#segments,Path2f,bool	vectors: segments(path: Path2f; closed: bool = false): seq[Segment2f]	
+segments	gg/vectors.html#segments.i,Path2f,bool	vectors: segments(path: Path2f; closed: bool = false): Segment2f	
+inside	gg/vectors.html#inside,Vec2f,Path2f	vectors: inside(p: Vec2f; path: Path2f): bool	
+insideNonZero	gg/vectors.html#insideNonZero,Vec2f,Path2f	vectors: insideNonZero(p: Vec2f; path: Path2f): bool	
+insideEvenOdd	gg/vectors.html#insideEvenOdd,Vec2f,Path2f	vectors: insideEvenOdd(p: Vec2f; path: Path2f): bool	
+area	gg/vectors.html#area,Path2f	vectors: area(path: Path2f): fnum	
+length	gg/vectors.html#length,Path2f,bool	vectors: length(path: Path2f; closed: bool = false): fnum	
+lenSq	gg/vectors.html#lenSq,Path2f,bool	vectors: lenSq(path: Path2f; closed: bool = false): fnum	
+perimeter	gg/vectors.html#perimeter.t,Path2f	vectors: perimeter(path: Path2f): fnum	
+distSq	gg/vectors.html#distSq,Vec2f,Path2f,bool	vectors: distSq(p: Vec2f; path: Path2f; closed: bool = false): fnum	
+dist	gg/vectors.html#dist,Vec2f,Path2f,bool	vectors: dist(p: Vec2f; path: Path2f; closed: bool = false): fnum	
+segments	gg/vectors.html#segments,Polygon2f	vectors: segments(path: Polygon2f): seq[Segment2f]	
+segments	gg/vectors.html#segments.i,Polygon2f	vectors: segments(path: Polygon2f): (Segment2f, bool)	
+bbox	gg/vectors.html#bbox,Polygon2f	vectors: bbox(path: Polygon2f): BBox2f	
+inside	gg/vectors.html#inside,Vec2f,Path2f,seq[Path2f]	vectors: inside(p: Vec2f; contour: Path2f; holes: seq[Path2f]): bool	
+inside	gg/vectors.html#inside,Vec2f,Polygon2f	vectors: inside(p: Vec2f; path: Polygon2f): bool	
+area	gg/vectors.html#area,Polygon2f	vectors: area(path: Polygon2f): fnum	
+perimeter	gg/vectors.html#perimeter,Polygon2f	vectors: perimeter(path: Polygon2f): fnum	
+distSq	gg/vectors.html#distSq,Vec2f,Path2f,seq[Path2f]	vectors: distSq(p: Vec2f; contour: Path2f; holes: seq[Path2f]): fnum	
+dist	gg/vectors.html#dist,Vec2f,Path2f,seq[Path2f]	vectors: dist(p: Vec2f; contour: Path2f; holes: seq[Path2f]): fnum	
+distSq	gg/vectors.html#distSq,Vec2f,Polygon2f	vectors: distSq(p: Vec2f; path: Polygon2f): fnum	
+dist	gg/vectors.html#dist,Vec2f,Polygon2f	vectors: dist(p: Vec2f; path: Polygon2f): fnum	
+within	gg/vectors.html#within.t,Vec2f,fnum,fnum,varargs[untyped]	vectors: within(p: Vec2f; inset, insetSq: fnum; area: varargs[untyped]): bool	
+ccw	gg/vectors.html#ccw,Path2f	vectors: ccw(path: Path2f): Path2f	
+cw	gg/vectors.html#cw,Path2f	vectors: cw(path: Path2f): Path2f	
+close	gg/vectors.html#close,Path2f	vectors: close(contour: Path2f): Polygon2f	
+poke	gg/vectors.html#poke,Path2f,seq[Path2f]	vectors: poke(contour: Path2f; holes: seq[Path2f]): Polygon2f	
+min	gg/vectors.html#min,Rect2f	vectors: min(rect: Rect2f): Vec2f	
+max	gg/vectors.html#max,Rect2f	vectors: max(rect: Rect2f): Vec2f	
+x	gg/vectors.html#x,Rect2f	vectors: x(rect: Rect2f): fnum	
+y	gg/vectors.html#y,Rect2f	vectors: y(rect: Rect2f): fnum	
+width	gg/vectors.html#width,Rect2f	vectors: width(rect: Rect2f): fnum	
+height	gg/vectors.html#height,Rect2f	vectors: height(rect: Rect2f): fnum	
+area	gg/vectors.html#area,Rect2f	vectors: area(rect: Rect2f): fnum	
+union	gg/vectors.html#union,Rect2f,Rect2f	vectors: union(r1, r2: Rect2f): Rect2f	
+inside	gg/vectors.html#inside,Vec2f,Rect2f	vectors: inside(p: Vec2f; rect: Rect2f): bool	
+bbox	gg/vectors.html#bbox,Rect2f	vectors: bbox(rect: Rect2f): BBox[Vec2f]	
+corners	gg/vectors.html#corners,Rect2f	vectors: corners(rect: Rect2f): array[4, Vec2f]	
+zero	gg/vectors.html#zero.t,typedesc[BBox2f]	vectors: zero(T: typedesc[BBox2f]): BBox2f	
+one	gg/vectors.html#one.t,typedesc[BBox2f]	vectors: one(T: typedesc[BBox2f]): BBox2f	
+empty	gg/vectors.html#empty.t,typedesc[BBox2f]	vectors: empty(T: typedesc[BBox2f]): BBox2f	
+zero	gg/vectors.html#zero.t,typedesc[BBox2i]	vectors: zero(T: typedesc[BBox2i]): BBox2i	
+one	gg/vectors.html#one.t,typedesc[BBox2i]	vectors: one(T: typedesc[BBox2i]): BBox2i	
+empty	gg/vectors.html#empty.t,typedesc[BBox2i]	vectors: empty(T: typedesc[BBox2i]): BBox2i	
+`*`	gg/vectors.html#*,BBox[T],fnum	vectors: `*`[T](bbox: BBox[T]; s: fnum): BBox[T]	
+`*`	gg/vectors.html#*,fnum,BBox[T]	vectors: `*`[T](s: fnum; bbox: BBox[T]): BBox[T]	
+`/`	gg/vectors.html#/,BBox[T],fnum	vectors: `/`[T](bbox: BBox[T]; s: fnum): BBox[T]	
+size	gg/vectors.html#size,BBox[T]	vectors: size[T](bbox: BBox[T]): T	
+x	gg/vectors.html#x,BBox2[T]	vectors: x[T](bbox: BBox2[T]): T	
+y	gg/vectors.html#y,BBox2[T]	vectors: y[T](bbox: BBox2[T]): T	
+width	gg/vectors.html#width,BBox2[T]	vectors: width[T](bbox: BBox2[T]): T	
+height	gg/vectors.html#height,BBox2[T]	vectors: height[T](bbox: BBox2[T]): T	
+aspect	gg/vectors.html#aspect,BBox2[T]	vectors: aspect[T](bbox: BBox2[T]): T	
+area	gg/vectors.html#area,BBox2[T]	vectors: area[T](bbox: BBox2[T]): T	
+center	gg/vectors.html#center,BBox2[T]	vectors: center[T](bbox: BBox2[T]): Vec2[T]	
+union	gg/vectors.html#union,BBox[T],BBox[T]	vectors: union[T](b1, b2: BBox[T]): BBox[T]	
+intersect	gg/vectors.html#intersect,BBox2[T],BBox2[T]	vectors: intersect[T](b1, b2: BBox2[T]): BBox2[T]	
+`+`	gg/vectors.html#+,BBox2[T],BBox2[T]	vectors: `+`[T](b1, b2: BBox2[T]): BBox2[T]	
+`*`	gg/vectors.html#*,BBox2[T],BBox2[T]	vectors: `*`[T](b1, b2: BBox2[T]): BBox2[T]	
+inside	gg/vectors.html#inside,Vec2[T],BBox2[T]	vectors: inside[T](p: Vec2[T]; bbox: BBox2[T]): bool	
+`in`	gg/vectors.html#in,Vec2[T],BBox2[T]	vectors: `in`[T](p: Vec2[T]; bbox: BBox2[T]): bool	
+inside	gg/vectors.html#inside,Vec3[T],BBox3[T]	vectors: inside[T](p: Vec3[T]; bbox: BBox3[T]): bool	
+`in`	gg/vectors.html#in,Vec3[T],BBox3[T]	vectors: `in`[T](p: Vec3[T]; bbox: BBox3[T]): bool	
+intersects	gg/vectors.html#intersects,BBox2[T],BBox2[T]	vectors: intersects[T](b1, b2: BBox2[T]): bool	
+contains	gg/vectors.html#contains,BBox2[T],BBox2[T]	vectors: contains[T](b1, b2: BBox2[T]): bool	
+inside	gg/vectors.html#inside,BBox2[T],BBox2[T]	vectors: inside[T](b1, b2: BBox2[T]): bool	
+distSq	gg/vectors.html#distSq,Vec2[T],BBox2[T]	vectors: distSq[T](p: Vec2[T]; bbox: BBox2[T]): fnum	
+dist	gg/vectors.html#dist,T,BBox[T]	vectors: dist[T](p: T; bbox: BBox[T]): fnum	
+ibox	gg/vectors.html#ibox.t,BBox2i	vectors: ibox(bbox: BBox2i): BBox2i	
+bbox	gg/vectors.html#bbox.t,BBox2f	vectors: bbox(bbox: BBox2f): BBox2f	
+bbox	gg/vectors.html#bbox,BBox2i	vectors: bbox(bbox: BBox2i): BBox2f	
+ibox	gg/vectors.html#ibox,BBox2f	vectors: ibox(bbox: BBox2f): BBox2i	
+inset	gg/vectors.html#inset,BBox2[T],T	vectors: inset[T](bbox: BBox2[T]; dist: T): BBox2[T]	
+fit	gg/vectors.html#fit,BBox2f,fnum	vectors: fit(bbox: BBox2f; ratio: fnum = 1.0): BBox2f	
+cover	gg/vectors.html#cover,BBox2f,fnum	vectors: cover(bbox: BBox2f; ratio: fnum = 1.0): BBox2f	
+map	gg/vectors.html#map,Vec2f,BBox2f,BBox2f	vectors: map(p: Vec2f; bbox1: BBox2f; bbox2: BBox2f = BBox2f.one): Vec2f	
+corners	gg/vectors.html#corners,BBox2[T]	vectors: corners[T](bbox: BBox2[T]): array[4, Vec2[T]]	
+zero	gg/vectors.html#zero.t,typedesc[Vec3f]	vectors: zero(T: typedesc[Vec3f]): Vec3f	
+one	gg/vectors.html#one.t,typedesc[Vec3f]	vectors: one(T: typedesc[Vec3f]): Vec3f	
+up	gg/vectors.html#up.t,typedesc[Vec3f]	vectors: up(T: typedesc[Vec3f]): Vec3f	
+down	gg/vectors.html#down.t,typedesc[Vec3f]	vectors: down(T: typedesc[Vec3f]): Vec3f	
+left	gg/vectors.html#left.t,typedesc[Vec3f]	vectors: left(T: typedesc[Vec3f]): Vec3f	
+right	gg/vectors.html#right.t,typedesc[Vec3f]	vectors: right(T: typedesc[Vec3f]): Vec3f	
+forward	gg/vectors.html#forward.t,typedesc[Vec3f]	vectors: forward(T: typedesc[Vec3f]): Vec3f	
+backward	gg/vectors.html#backward.t,typedesc[Vec3f]	vectors: backward(T: typedesc[Vec3f]): Vec3f	
+inf	gg/vectors.html#inf.t,typedesc[Vec3f]	vectors: inf(T: typedesc[Vec3f]): Vec3f	
+length	gg/vectors.html#length,Vec3f	vectors: length(p: Vec3f): fnum	
+lenSq	gg/vectors.html#lenSq,Vec3f	vectors: lenSq(p: Vec3f): fnum	
+lenManh	gg/vectors.html#lenManh,Vec3f	vectors: lenManh(p: Vec3f): fnum	
+dist	gg/vectors.html#dist,Vec3f,Vec3f	vectors: dist(p1: Vec3f; p2: Vec3f): fnum	
+distSq	gg/vectors.html#distSq,Vec3f,Vec3f	vectors: distSq(p1: Vec3f; p2: Vec3f): fnum	
+distManh	gg/vectors.html#distManh,Vec3f,Vec3f	vectors: distManh(p1: Vec3f; p2: Vec3f): fnum	
+`+`	gg/vectors.html#+,Vec3,Vec3	vectors: `+`(p1: Vec3; p2: Vec3): Vec3	
+`+=`	gg/vectors.html#+=,Vec3f,Vec3f	vectors: `+=`(p1: var Vec3f; p2: Vec3f)	
+`-`	gg/vectors.html#-,Vec3f,Vec3f	vectors: `-`(p1: Vec3f; p2: Vec3f): Vec3f	
+`-=`	gg/vectors.html#-=,Vec3f,Vec3f	vectors: `-=`(p1: var Vec3f; p2: Vec3f)	
+`*`	gg/vectors.html#*,Vec3f,fnum	vectors: `*`(p: Vec3f; s: fnum): Vec3f	
+`*`	gg/vectors.html#*,fnum,Vec3f	vectors: `*`(s: fnum; p: Vec3f): Vec3f	
+`/`	gg/vectors.html#/,Vec3f,fnum	vectors: `/`(p: Vec3f; s: fnum): Vec3f	
+`/=`	gg/vectors.html#/=,Vec3f,fnum	vectors: `/=`(p: var Vec3f; s: fnum)	
+`*`	gg/vectors.html#*,Vec3f,Vec3f	vectors: `*`(p1: Vec3f; p2: Vec3f): fnum	
+`^`	gg/vectors.html#^,Vec3f,Vec3f	vectors: `^`(p1: Vec3f; p2: Vec3f): Vec3f	
+norm	gg/vectors.html#norm,Vec3f	vectors: norm(p: Vec3f): Vec3f	
+proj	gg/vectors.html#proj,Vec3f,Vec3f	vectors: proj(p1: Vec3f; p2: Vec3f): Vec3f	
+`*`	gg/vectors.html#*,Mat3x3,Vec3f	vectors: `*`(mat: Mat3x3; p: Vec3f): Vec3f	
+round	gg/vectors.html#round,Vec3f	vectors: round(p: Vec3f): Vec3f	
+floor	gg/vectors.html#floor,Vec3f	vectors: floor(p: Vec3f): Vec3f	
+ceil	gg/vectors.html#ceil,Vec3f	vectors: ceil(p: Vec3f): Vec3f	
+ivec	gg/vectors.html#ivec,Vec3f	vectors: ivec(p: Vec3f): Vec3i	
+fvec	gg/vectors.html#fvec,Vec3i	vectors: fvec(p: Vec3i): Vec3f	
+bbox	gg/vectors.html#bbox,Vec3f	vectors: bbox(p: Vec3f): BBox[Vec3f]	
+min	gg/vectors.html#min,varargs[Vec3f]	vectors: min(ps: varargs[Vec3f]): Vec3f	
+max	gg/vectors.html#max,varargs[Vec3f]	vectors: max(ps: varargs[Vec3f]): Vec3f	
+rotAlign	gg/vectors.html#rotAlign,Vec3f,Vec3f	vectors: rotAlign(p1: Vec3f; p2: Vec3f): Mat3x3	
+mix	gg/vectors.html#mix,Vec3f,Vec3f,fnum	vectors: mix(p1: Vec3f; p2: Vec3f; t: fnum): Vec3f	
+centroid	gg/vectors.html#centroid,Vec3f,Vec3f,Vec3f	vectors: centroid(p1, p2, p3: Vec3f): Vec3f	
+circumcenter	gg/vectors.html#circumcenter,Vec3f,Vec3f,Vec3f	vectors: circumcenter(p1, p2, p3: Vec3f): Vec3f	
+xz	gg/vectors.html#xz,Vec3f	vectors: xz(p: Vec3f): Vec2f	
+xy	gg/vectors.html#xy,Vec3f	vectors: xy(p: Vec3f): Vec2f	
+stereographic	gg/vectors.html#stereographic,Vec3f	vectors: stereographic(p: Vec3f): Vec2f	
+stereographicInv	gg/vectors.html#stereographicInv,Vec2f	vectors: stereographicInv(p: Vec2f): Vec3f	
+winkelTripel	gg/vectors.html#winkelTripel,Vec3f	vectors: winkelTripel(p: Vec3f): Vec3f	
+triangleArea	gg/vectors.html#triangleArea,varargs[Vec3f]	vectors: triangleArea(vs: varargs[Vec3f]): fnum	
+triangleNormal	gg/vectors.html#triangleNormal,varargs[Vec3f]	vectors: triangleNormal(vs: varargs[Vec3f]): Vec3f	
+cmpX	gg/vectors.html#cmpX,Vec2[T],Vec2[T]	vectors: cmpX[T](p1, p2: Vec2[T]): int	
+cmpY	gg/vectors.html#cmpY,Vec2[T],Vec2[T]	vectors: cmpY[T](p1, p2: Vec2[T]): int	

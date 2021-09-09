@@ -1,0 +1,10 @@
+{
+  "nim.project": [
+    "tests/demo.nim",
+    "tests/test1.nim",
+    "tests/test_vectors.nim",
+    "tests/test_grid.nim",
+    "tests/test_smallseq.nim",
+    "tests/test_quadtree.nim",
+  ]
+}

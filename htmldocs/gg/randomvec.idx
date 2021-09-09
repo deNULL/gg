@@ -1,0 +1,10 @@
+rand	gg/randomvec.html#rand,Rand,Vec2f	randomvec: rand(r: var Rand; max: Vec2f): Vec2f	
+rand	gg/randomvec.html#rand,Rand,Vec2i	randomvec: rand(r: var Rand; max: Vec2i): Vec2i	
+rand	gg/randomvec.html#rand,Rand,Vec3f	randomvec: rand(r: var Rand; max: Vec3f): Vec3f	
+rand	gg/randomvec.html#rand,Rand,Vec3i	randomvec: rand(r: var Rand; max: Vec3i): Vec3i	
+rand	gg/randomvec.html#rand,Rand,BBox2i	randomvec: rand(r: var Rand; bbox: BBox2i): Vec2i	
+rand	gg/randomvec.html#rand,Rand,BBox3f	randomvec: rand(r: var Rand; bbox: BBox3f): Vec3f	
+rand	gg/randomvec.html#rand,Rand,BBox3i	randomvec: rand(r: var Rand; bbox: BBox3i): Vec3i	
+rand	gg/randomvec.html#rand,Rand,Region2f,fnum,int	randomvec: rand(r: var Rand; region: Region2f; inset: fnum = 0.0; maxit: int = 1000000): Vec2f	
+rand	gg/randomvec.html#rand,Rand,Path2f,seq[Path2f],fnum,int	randomvec: rand(r: var Rand; contour: Path2f; holes: seq[Path2f] = @[]; inset: fnum = 0.0;\n     maxit: int = 1000000): Vec2f	
+rand	gg/randomvec.html#rand,Rand,Vec2f,Vec2f,Vec2f,fnum,int	randomvec: rand(r: var Rand; a, b, c: Vec2f; inset: fnum = 0.0; maxit: int = 1000000): Vec2f	
